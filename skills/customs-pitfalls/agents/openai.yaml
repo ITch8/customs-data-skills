@@ -1,0 +1,4 @@
+interface:
+  display_name: "Customs Pitfalls"
+  short_description: "海关数据避坑质检：货代误判、无记录误判、统计单价、群发与开发信红线"
+  default_prompt: "使用 $customs-pitfalls 审查我刚完成的海关数据客户名单/市场结论/开发信草稿，列出必须修改项。"

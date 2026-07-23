@@ -1,0 +1,4 @@
+interface:
+  display_name: "Customs Lead SOP"
+  short_description: "海关数据开发客户：HS→市场分层→真实采购商→评分→个性化开发信"
+  default_prompt: "使用 $customs-lead-sop。产品与目标市场如下，请按完整 SOP 执行，并强制加载 $customs-pitfalls 做质检。输出报告到 ./hunt_result/。"

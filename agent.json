@@ -1,0 +1,50 @@
+{
+  "id": "customs-data-skills",
+  "name": "海关数据开发客户",
+  "description": "用公开海关/贸易数据做市场分层、真实采购商挖掘、评分与个性化开发信草稿。含完整 SOP 与避坑质检。支持 OpenClaw / Codex / Cursor。",
+  "model": "{YOUR_MODEL_ID}",
+  "os": ["darwin", "linux", "win32"],
+  "skills": ["customs-lead-sop", "customs-pitfalls"],
+  "tools": {
+    "allow": ["web_fetch", "web_search", "browser", "exec"]
+  },
+  "formData": {
+    "fields": [
+      {
+        "key": "product_name",
+        "label": "产品名称（中英文）",
+        "type": "text",
+        "required": true,
+        "placeholder": "Pet bowl / 宠物碗"
+      },
+      {
+        "key": "hs_codes",
+        "label": "已核实 HS/HTS 编码（可选）",
+        "type": "text",
+        "required": false,
+        "placeholder": "3924.10"
+      },
+      {
+        "key": "target_markets",
+        "label": "目标市场",
+        "type": "text",
+        "required": true,
+        "placeholder": "US, UK, CA"
+      },
+      {
+        "key": "competitor_names",
+        "label": "竞争对手英文名（可选，用于反查）",
+        "type": "text",
+        "required": false,
+        "placeholder": "Example Trading Co Ltd"
+      },
+      {
+        "key": "target_buyer_count",
+        "label": "目标采购商数量",
+        "type": "text",
+        "required": false,
+        "placeholder": "20"
+      }
+    ]
+  }
+}

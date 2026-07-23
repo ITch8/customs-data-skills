@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+.secrets/
+hunt_result/
+reports/
+__pycache__/
