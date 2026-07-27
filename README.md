@@ -76,14 +76,16 @@ openclaw skills install ./skills/customs-pitfalls --as customs-pitfalls
 
 ```text
 /customs-lead-sop
-产品：宠物碗；目标：US/UK/CA；同行：Xxx Co Ltd
+产品：谐波减速器（strain wave / harmonic reducer），用于人形机器人关节
+目标：US/JP/DE；同行：Xxx Harmonic Drive Co Ltd
+买家类型：本体厂 / 关节模组厂 / 协作臂厂商 / 集成商
 按完整 SOP 执行，强制 customs-pitfalls 质检，报告写入 ./hunt_result/
 ```
 
 Codex：
 
 ```text
-$customs-lead-sop 产品 LED 工矿灯，目标德国/波兰，先确认 HS 再做市场分层与采购商评分
+$customs-lead-sop 产品人形机器人关节模组，目标美国/德国，先确认 HS，Comtrade 只做宏观选市，再评分采购商
 ```
 
 OpenClaw：加载 skill 后下达同样任务；可选 `agent.json` 作为 Agent 配置模板。
@@ -105,7 +107,9 @@ customs-data-skills/
     │   ├── agents/openai.yaml
     │   ├── references/tools.md
     │   ├── references/scorecard.md
-    │   └── examples/pet-products.md
+    │   └── examples/
+    │       ├── humanoid-harmonic-reducer.md
+    │       └── pet-products.md
     └── customs-pitfalls/
         ├── SKILL.md
         ├── agents/openai.yaml

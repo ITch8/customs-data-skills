@@ -15,21 +15,21 @@
         "label": "产品名称（中英文）",
         "type": "text",
         "required": true,
-        "placeholder": "Pet bowl / 宠物碗"
+        "placeholder": "Harmonic reducer / 谐波减速器（人形机器人关节）"
       },
       {
         "key": "hs_codes",
         "label": "已核实 HS/HTS 编码（可选）",
         "type": "text",
         "required": false,
-        "placeholder": "3924.10"
+        "placeholder": "8483.40"
       },
       {
         "key": "target_markets",
         "label": "目标市场",
         "type": "text",
         "required": true,
-        "placeholder": "US, UK, CA"
+        "placeholder": "US, JP, DE"
       },
       {
         "key": "competitor_names",

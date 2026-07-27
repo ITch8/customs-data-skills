@@ -181,7 +181,7 @@ Hard rules:
 - **Translate** internal fields → product / replenishment / capability observations (see pitfalls Pitfall 12)  
 - Keep provenance in CRM / report only
 
-Angle by buyer type: see [examples/pet-products.md](examples/pet-products.md)
+Angle by buyer type: see [examples/humanoid-harmonic-reducer.md](examples/humanoid-harmonic-reducer.md) (ToB) and [examples/pet-products.md](examples/pet-products.md) (consumer)
 
 ### Step 7 — Report output
 
