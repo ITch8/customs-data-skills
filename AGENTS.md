@@ -1,7 +1,8 @@
 # Customs Data Skills — Agent Operating Manual
 
 > Portable instructions for **Codex**, **OpenClaw**, **Cursor**, **Claude Code**, and other Agent Skills runtimes.  
-> Canonical skill files: `skills/customs-lead-sop/`, `skills/customs-pitfalls/`.
+> Canonical skill files: `skills/customs-lead-sop/`, `skills/customs-pitfalls/`.  
+> The repository also contains other foreign-trade skills under `skills/`. This manual governs only the two customs skills.
 
 ## Role
 

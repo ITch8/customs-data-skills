@@ -1,0 +1,557 @@
+{
+  "generated": "2026-10-10",
+  "count": 42,
+  "skills": [
+    {
+      "slug": "b2b-fast-builder",
+      "category": "general",
+      "description": "规划或审计无 CMS 的外贸 B2B 静态站：每个网址预生成完整 HTML，询盘先记录再通知。用户要建独立站、国家站或 SEO 专题站时使用。不用于需要后台实时发文的 CMS。（本技能原先声明的 present_artifacts 工具依赖已移除：它们由特定宿主平台提供，在通用环境中不可用。）",
+      "version": "1.0.0",
+      "tools": [
+        "web_search"
+      ],
+      "deps": [],
+      "tools_removed": [
+        "present_artifacts"
+      ],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "b2b-reddit-engagement",
+      "category": "general",
+      "description": "为外贸 B2B 写 Reddit 社区评论和帖子草稿。用户要 Reddit 评论、社区引流或行业讨论回复时使用。不用于 Facebook 或 LinkedIn。",
+      "version": "1.0.0",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "b2b-short-video",
+      "category": "general",
+      "description": "生成外贸 B2B 短视频分镜脚本，适用于 TikTok、YouTube Shorts、Instagram Reels。用户要短视频脚本、带货分镜或产品/工厂视频文案时使用。不用于长视频脚本。",
+      "version": "1.0.0",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "expert-jia-social-trade-perspective",
+      "category": "general",
+      "description": "以外贸专家甲的身份回答社媒获客、工厂外贸、选品和市场选择。基于其公开口播蒸馏，数字都是个例。选他如果你在起步阶段、预算有限、要先小步验证再投入。用户要外贸专家甲视角时使用。",
+      "version": "2026.09.27",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "chip-bom-sourcing",
+      "category": "general",
+      "description": "把芯片询价或 BOM 整理成可核对的 MPN、规格、批次、供货和替代要求；用于询价、比价和采购准备。",
+      "version": "2026.09.23",
+      "tools": [
+        "web_search"
+      ],
+      "deps": [
+        "knowledge-base"
+      ],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "chip-supplier-check",
+      "category": "general",
+      "description": "核对芯片供应商身份、授权路径、库存证据、批次追溯和质量文件；不会仅凭网站或照片宣布芯片真伪。",
+      "version": "2026.09.23",
+      "tools": [
+        "web_search"
+      ],
+      "deps": [
+        "knowledge-base"
+      ],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "chip-trade-compliance",
+      "category": "general",
+      "description": "为芯片内贸或跨境交易整理主体、货物、目的地、最终用户/用途和申报核验项；法规结论必须依据当前官方来源并由负责人确认。",
+      "version": "2026.09.23",
+      "tools": [
+        "web_search"
+      ],
+      "deps": [
+        "knowledge-base"
+      ],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "chip-trade-start",
+      "category": "general",
+      "description": "带芯片贸易新手从能力盘点、细分方向选择到首批询价和风险检查逐步起步；内贸、外贸或尚未决定路线均适用。",
+      "version": "2026.09.23",
+      "tools": [
+        "web_search"
+      ],
+      "deps": [
+        "knowledge-base"
+      ],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "conversation-context",
+      "category": "general",
+      "description": "跨 Email 与 WhatsApp 的统一客户沟通上下文与 Trade Case 解析。用户要梳理客户沟通历史、把邮件与消息归入同一 Trade Case 时使用。",
+      "version": "1.0.0",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "customs-lead-sop",
+      "category": "general",
+      "description": "用公开海关/贸易数据做外贸客户开发：确认 HS 编码 → 用宏观统计给市场分层 → 从提单反查真实采购商 → 评分分级 → 把证据转译成开发信草稿。反爬或登录墙时支持用户导出 CSV/Excel 交接。用户提到海关数据、提单反查、ImportYeti、找进口商、找买家时使用。必须配合 customs-pitfalls ",
+      "version": "1.0.0",
+      "tools": [
+        "web_search",
+        "web_fetch"
+      ],
+      "deps": [
+        "customs-pitfalls"
+      ],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "customs-pitfalls",
+      "category": "general",
+      "description": "海关数据避坑护栏：货代/报关行假阳性、To Order 与 AMS 隐私遮蔽、统计≠买家、无提单≠不进口、统计单价误用、单词关键词检索、群发轰炸、HS 选错、转口枢纽、无视关税、暴露数据来源、把关务字段生硬转译。做进口商研究与市场分析时使用，尤其是 customs-lead-sop 收尾质检。触发词：海关数据避坑、提单",
+      "version": "1.0.0",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "expert-yi-social-trade-perspective",
+      "category": "general",
+      "description": "以外贸专家乙的身份回答社媒获客、外贸创业与订单跟进。基于公开口播蒸馏，数字都是个例。选他如果你从零起步做社媒、关心内容怎么做、订单怎么跟。用户要外贸专家乙视角时使用。",
+      "version": "2026.09.28",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "deep-research",
+      "category": "general",
+      "description": "深度研究编排方法论：澄清范围、拆解规划、并行调度子智能体调研、对抗式核验、综合成带引用的结构化报告。当任务需要多来源、可追溯、需事实核查的深度研究时使用此技能。（本技能原先声明的 present_artifacts 工具依赖已移除：它们由特定宿主平台提供，在通用环境中不可用。）",
+      "version": "2026.09.19",
+      "tools": [
+        "web_search"
+      ],
+      "deps": [],
+      "tools_removed": [
+        "present_artifacts"
+      ],
+      "dereferenced": false,
+      "slug_added": true
+    },
+    {
+      "slug": "expert-bing-brand-overseas-perspective",
+      "category": "general",
+      "description": "以外贸专家丙的身份回答中国品牌出海、西方买家沟通、展会成交和销售培训。基于公开口播蒸馏，数字都是个例。用户要外贸专家丙视角时使用。",
+      "version": "2026.10.05",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "foreign-trade-research",
+      "category": "general",
+      "description": "对目标国家和产品做外贸市场调研，覆盖品牌商、制造商和经销商，给出竞争格局、定价、渠道和进入建议。用户要海外市场分析或竞品调研时使用。（本技能原先声明的 present_artifacts 工具依赖已移除：它们由特定宿主平台提供，在通用环境中不可用。）",
+      "version": "1.0.0",
+      "tools": [
+        "web_search"
+      ],
+      "deps": [],
+      "tools_removed": [
+        "present_artifacts"
+      ],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "ft-geo",
+      "category": "general",
+      "description": "审计外贸独立站的 AI 引用可见性，输出 llms.txt、结构化数据、抓取规则和 P0/P1/P2 清单。用户要做 GEO、写 llms.txt 或让 AI 引用网站时使用。不用于站内 SEO 排名承诺。（本技能原先声明的 present_artifacts 工具依赖已移除：它们由特定宿主平台提供，在通用环境中不可用",
+      "version": "1.0.0",
+      "tools": [
+        "web_search"
+      ],
+      "deps": [],
+      "tools_removed": [
+        "present_artifacts"
+      ],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "expert-ding-social-trade-perspective",
+      "category": "general",
+      "description": "以外贸专家丁的身份回答社媒外贸、轻资产获客、选品测试与谈单收款。基于其公开口播蒸馏，数字都是个例。选他如果你想轻资产试水、关心选品测试和收款风险。用户要外贸专家丁视角时使用。",
+      "version": "2026.10.05",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "expert-wu-factory-overseas-perspective",
+      "category": "general",
+      "description": "以外贸专家戊的身份回答工厂出海、社媒获客、AI外贸和独立站。基于其公开口播蒸馏，数字都是个例。用户要外贸专家戊视角或工厂出海时使用。",
+      "version": "2026.10.05",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "html-preview",
+      "category": "general",
+      "description": "使用 Markdown `html:preview` 围栏输出轻量静态 HTML/CSS 可视化。当普通 Markdown 难以清晰表达数值对比、层级关系、流程、时间线、关键指标或布局示意，或用户明确要求可视化 HTML 预览时使用。询问 HTML 源码、教程示例或可复制代码时不要使用。",
+      "version": "2026.07.23",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": true
+    },
+    {
+      "slug": "image-gen",
+      "category": "general",
+      "description": "在 Agent 沙盒中生成图片并保存到 outputs。当用户要求生成图片、海报、插画、文生图，或指定 Qwen-Image、其它兼容图片生成接口时使用此技能。（本技能原先声明的 present_artifacts 工具依赖已移除：它们由特定宿主平台提供，在通用环境中不可用。）",
+      "version": "2026.06.02",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [
+        "present_artifacts"
+      ],
+      "dereferenced": false,
+      "slug_added": true
+    },
+    {
+      "slug": "expert-gui-chip-trade-perspective",
+      "category": "general",
+      "description": "以外贸专家癸的身份回答芯片贸易、库存行情、代理备货和客户成交。基于其公开口播蒸馏，数字都是个例。用户要外贸专家癸视角或芯片生意时使用。",
+      "version": "2026.10.06",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "expert-ji-foreign-trade-perspective",
+      "category": "general",
+      "description": "以外贸专家己的身份回答外贸起步、社媒获客、选品、工厂出海和谈单避坑。基于公开口播蒸馏，数字都是个例。用户要外贸专家己视角时使用。",
+      "version": "2026.10.05",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "knowledge-base",
+      "category": "general",
+      "description": "使用已配置的知识库进行检索、打开文档、文档内定位和查看思维导图。当用户需要基于已配置知识库回答问题、核验资料或引用文档内容时使用此技能。（本技能原先声明的 list_kbs, query_kb, find_kb_document, open_kb_document, get_mindmap, search_file",
+      "version": "2026.06.24",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [
+        "list_kbs",
+        "query_kb",
+        "find_kb_document",
+        "open_kb_document",
+        "get_mindmap",
+        "search_file",
+        "download_kb_file"
+      ],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "expert-yin-trade-perspective",
+      "category": "general",
+      "description": "以外贸专家寅的身份回答外贸实战、获客和订单判断。基于公开口播蒸馏，数字都是个例。用户要外贸专家寅视角时使用。",
+      "version": "2026.09.27",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "expert-geng-foreign-trade-perspective",
+      "category": "general",
+      "description": "以外贸专家庚的身份回答 Facebook 投流、WhatsApp 跟进、客资筛选、独立站和工厂出海。基于其公开口播蒸馏，数字都是个例。选他如果你已有产品、要把公域投流和私域跟进跑通。用户要外贸专家庚视角时使用。",
+      "version": "2026.10.05",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "expert-xin-b2b-perspective",
+      "category": "general",
+      "description": "以做了 15 年 B2B 的外贸专家辛的身份回答获客、内容、独立站、广告投放和团队落地问题。用户要外贸专家辛视角，或判断外贸做法是否务实时使用。数字都是公开口播中的个例。",
+      "version": "2026.09.27",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "mysql-reporter",
+      "category": "general",
+      "description": "查询本机业务库并生成报表。当用户要统计客户、询盘、报价、审批、订单、芯片货源、知识事实等业务指标，或导出业务数据表格时使用此技能。基于 SQLite，不适用于外部 MySQL 数据源。",
+      "version": "2026.10.07",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": true,
+      "slug_added": false
+    },
+    {
+      "slug": "outreach",
+      "category": "general",
+      "description": "Decide whether a qualified prospect is ready for a guarded, human-approved first touch. 用户要判断该不该联系潜客、准备首次触达时使用。",
+      "version": "1.0.0",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "product-coaching",
+      "category": "general",
+      "description": "外贸产品理解教练。用于场景判断、参数推理、质量与供应链风险识别。先追问用户理由，不直接给答案；禁止发送客户消息或发布知识。",
+      "version": "2026.09.29",
+      "tools": [
+        "kb_search"
+      ],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "sales-copilot",
+      "category": "general",
+      "description": "AI 外贸销售副驾驶：围绕 Trade Case 提供可追溯、需人工确认的分析与建议。用户要销售判断、跟进策略或话术建议时使用。",
+      "version": "1.0.0",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "sourcing-discover",
+      "category": "general",
+      "description": "按品类/HS编码/目标国家检索并初筛工厂与供应商候选，逐条标注证据等级与来源链接。不编造供应商、不把平台自填信息当已核实、贸易商与工厂的区分交给人工。",
+      "version": "1.0.0",
+      "tools": [
+        "sourcing_search",
+        "sourcing_list_candidates",
+        "sourcing_capability"
+      ],
+      "deps": [
+        "chip-supplier-check",
+        "knowledge-base"
+      ],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "trade-buyer-check",
+      "category": "general",
+      "description": "为外贸客户做公开信息背调，并写入客户档案。用户要核验买家身份、采购角色或风险时使用。不用于国际站信用分或付费海关数据。",
+      "version": "1.0.0",
+      "tools": [
+        "web_search",
+        "trade_create_account",
+        "trade_list_today"
+      ],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "trade-desk",
+      "category": "general",
+      "description": "处理外贸客户、询盘诊断和待审批开发信。当用户要建客户档案、判断询盘、起草对外邮件时使用。",
+      "version": "2026.09.22",
+      "tools": [
+        "trade_list_today",
+        "trade_create_account",
+        "trade_triage_inquiry",
+        "trade_request_outreach_approval"
+      ],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "trade-follow-up",
+      "category": "general",
+      "description": "为已有外贸客户准备下一次跟进草稿。用户要跟进已读不回、报价后沉默、高价值未下单或流失客户时使用。不会发送邮件。",
+      "version": "1.0.0",
+      "tools": [
+        "trade_list_today",
+        "trade_request_outreach_approval"
+      ],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "trade-inquiry-reply",
+      "category": "general",
+      "description": "诊断外贸询盘卡点，并保存一封待审批回复。用户要回复询盘、处理价格异议或判断该不该报价时使用。不会发送邮件。",
+      "version": "1.0.0",
+      "tools": [
+        "trade_triage_inquiry",
+        "trade_request_outreach_approval",
+        "web_search"
+      ],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "trade-simulation-coach",
+      "category": "general",
+      "description": "外贸全流程业务沙盘教练。解释当前情境、按用户能力控制提示、分析决策后果与因果风险。不替用户决策；禁止把模拟数据写入真实客户、报价或公司知识库。",
+      "version": "2026.09.29",
+      "tools": [
+        "trade_simulation_list",
+        "trade_simulation_start",
+        "trade_simulation_get",
+        "trade_simulation_current_event",
+        "trade_simulation_submit_decision",
+        "trade_simulation_get_consequence",
+        "trade_simulation_get_risks",
+        "trade_simulation_review",
+        "kb_search"
+      ],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "tradehot",
+      "category": "general",
+      "description": "整理外贸与跨境电商中文简报，覆盖平台动态、市场、HS Code、关税准入、物流、汇率和风险。用户要外贸日报、市场机会或风险雷达时使用。（本技能原先声明的 present_artifacts 工具依赖已移除：它们由特定宿主平台提供，在通用环境中不可用。）",
+      "version": "1.1.0",
+      "tools": [
+        "web_search"
+      ],
+      "deps": [],
+      "tools_removed": [
+        "present_artifacts"
+      ],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "expert-zi-chip-procurement-perspective",
+      "category": "general",
+      "description": "以外贸专家子的身份回答芯片采购、电子元器件识别、原装辨别和行情判断。基于其公开口播蒸馏，数字都是个例。用户要外贸专家子视角或芯片采购时使用。",
+      "version": "2026.10.06",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "expert-ren-overseas-perspective",
+      "category": "general",
+      "description": "以外贸专家壬的身份回答工厂出海、社媒外贸、选品根据地和谈单成交。基于公开口播蒸馏，数字都是个例。用户要外贸专家壬视角时使用。",
+      "version": "2026.10.05",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "expert-chou-semiconductor-sales-perspective",
+      "category": "general",
+      "description": "以外贸专家丑的身份回答半导体ToB销售、新人入行、客户开发和付款提成。基于其公开口播蒸馏，数字都是个例。用户要外贸专家丑视角或半导体销售时使用。",
+      "version": "2026.10.06",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "icp-architect",
+      "category": "prospecting",
+      "description": "Build an evidence-aware ideal customer profile from product knowledge and target market constraints.",
+      "version": "1.0.0",
+      "tools": [],
+      "deps": [],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    },
+    {
+      "slug": "prospect-qualification",
+      "category": "prospecting",
+      "description": "Qualify a prospect with explainable fit dimensions, evidence and confidence.",
+      "version": "1.1.0",
+      "tools": [],
+      "deps": [
+        "icp-architect",
+        "customs-pitfalls"
+      ],
+      "tools_removed": [],
+      "dereferenced": false,
+      "slug_added": false
+    }
+  ]
+}
